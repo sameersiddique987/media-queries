@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+ul{
+list-style: none;
+display: flex;
+justify-content: end;
+gap: 30px;
+color: brown;
+}
+
+li{
+    font-size: 1.5rem;
+}
+
+
+    img {
+        width: 100rem;
+        height: 50rem;
+    }
+
+    
+    body{
+        background-color: gray;
+    }
+    
+    
+    @media(min-width:500px){
+        body {
+            background-color: red;
+            color: white;
+        }
+    }
+    
+    
+    
+    @media(min-width:700px){
+        body {
+            background-color: peru;
+            color: white;
+        }
+    }
+    
+    #icon{
+        font-size: 40px;
+        color: black;
+        display:none;
+    }
+    
+    @media(max-width:400px){
+        
+            ul{
+                display: none;
+            }
+   #icon{
+    display: block;
+   }
+        }
+
+    
